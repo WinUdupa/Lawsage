@@ -1,0 +1,267 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Hi"
+            ],
+            "responses": [
+                "Hello there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Bye! Have a nice day"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "Thnx",
+                "Thx"
+            ],
+            "responses": [
+                "Happy to help!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag" : "hit and run",
+            "patterns" : [
+                "Hit and run",
+                "Hit and run motor accident",
+                "Motor accident", 
+                "Motor vehicle accident"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : \"hit and run motor accident\" means an accident arising out of the use of a motor vehicle or motor vehicles the identity whereof cannot be ascertained in spite of reasonable efforts for the purpose\nA registering authority or the officer in charge of a police station shall, if so required by a person who alleges that he is entitled to claim compensation in respect of an accident arising out of the use of a motor vehicle, or if so required by an insurer against whom a claim has been made in respect of any motor vehicle, furnish to that person or to that insurer, as the case may be, on payment of the prescribed fee any information at the disposal of the said authority or the said authority or the said police officer relating to the identification marks and other particulars of the vehicle and the name and address of the person who was using the vehicle at the time of the accident or was injured by it and the property, if any damaged in such form and within such time as the Central Government may prescribe."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "hit and run compensation",
+            "patterns" : [
+                "Hit and run claim",
+                "compensation"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Notwithstanding anything contained in this Act or in any other law for the time being in force or instrument having the force of law, the owner of the motor vehicle of the authorised insurer shall be liable to pay in the case of death or permanent disablement due to accident arising out of the use of motor vehicle, compensation, as indicated in the Second Schedule, to the legal heirs or the victim, as the case may be.\n\n In any claim for compensation under sub-section (1), the claimant shall not be required to plead or establish that the death or permanent disablement in respect of which the claim has been made was due to any wrongful act or neglect or default of the owner of the vehicle or vehicles concerned or of any other person.\n\n Where a person is entitled to claim compensation under section 140 and section 163A, he shall file the claim under either of the said sections and not under both.]"
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "drunk",
+            "patterns" : [
+                "drunk driving",
+                "drunk driver",
+                "drunk driver accident", 
+                "operating under the influence"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Whoever, while driving or attempting to drive a motor vehicle - \nhas in his blood, alcohol exceeding 30mg per 100ml of blood detected in a test by a breath analyser, or\n is under the influence of a drug to such an extent as to be incapable of exercising proper control over the vehicle\n shall be punishable for the first offence with imprisonment for a term which may extend to six months, or with fine which may extend to two thousand rupees, or with both; and for a second or subsequent offence, if committed within three years of the commission of the previous similar offence, with imprisonment for term which may extend to two years, or with fine which may extend to three thousand rupees, or with both."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "unfit",
+            "patterns" : [
+                "physically unfit",
+                "mentally unfit",
+                "physically challenged", 
+                "mentally challenged"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Whoever drives a motor vehicle in any public place when he is to his knowledge suffering from any disease or disability calculated to cause his driving of the vehicle to be a source of danger to the public, shall be punishable for the first offence with fine which may extend to two hundred rupees and for a second or subsequent offence with fine which may extend to five hundred rupees."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "unsafe",
+            "patterns" : [
+                "driving in unsafe condition",
+                "vehicle in unsafe condition",
+                "vehicle is unsafe", 
+                "vehicle unfit to drive"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : (1) Any person who drives or causes or allows to be driven in any public place a motor vehicle or trailer while the vehicle or trailer has any defect, which such person knows of or could have discovered by the exercise of ordinary care and which is calculated to render the driving of the vehicle a source of danger to persons and vehicles using such place, shall be punishable with fine which may extend to two hundred and fifty rupees or, if as a result of such defect an accident is caused causing bodily injury or damage to property, with imprisonment for a term which may extend to three months or with fine which may extend to one thousand rupees, or with both.\n\n(2) Any person who drives or causes or allows to be driven, in any public place a motor vehicle, which violates the standards prescribed in relation to road safety, control of noise and air- pollution, shall be punishable for the first offence with a fine of one thousand rupees and for any second or subsequent offence with a fine of two thousand rupees.\n\n(3) Any person who drives or causes or allows to be driven, in any public place a motor vehicle which violates the provisions of this Act or the rules made thereunder relating to the carriage of goods which are of dangerous or hazardous nature to human life, shall be punishable for the first offence which may extend to three thousand rupees, or withimprisonment for a term which may extend to one year, or with both, and for any second or subsequent offence with fine which may extend to five thousand rupees, or with imprisonment for a term which may extend to three years, or with both."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "registration",
+            "patterns" : [
+                "without registration",
+                "operating vehicle without registration"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Whoever drives a motor vehicle or causes or allows a motor vehicle to be used in contravention of the provisions of section 39 shall be punishable for the first offence with a fine which may extend to five thousand rupees but shall not be less than two thousand rupees for a second or subsequent offence with imprisonment which may extend to one year or with fine which may extend to ten thousand rupees but shall not be less than five thousand rupees or with both."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "insurance",
+            "patterns" : [
+                "uninsured",
+                "driving without insurance",
+                "operating motor vehicle without insurance"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Whoever drives a motor vehicle or causes or allows a motor vehicle to be driven in contravention of the provisions of section 146 shall be punishable with imprisonment which may extend to three months, or with fine which may extend to one thousand rupees, or with both."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "arrest",
+            "patterns" : [
+                "arrest for an offence",
+                "arrest without warrant",
+                "warrant"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : A police officer in uniform may arrest without warrant any person who in his presence commits an offence punishable under section 184 or section 185 or section 197 : \n Provided that any person so arrested in connection with an offence punishable under section 185 shall, within two hours of his arrest, be subjected to a medical examination referred to in sections 203 and 204 by a registered medical practitioner failing which he shall be released from custody.\n A police officer in uniform may arrest without warrant any person, who has committed an offence under this Act, if such person refuses to give his name and address.\nA police officer arresting without warrant the driver of a motor vehicle shall if the circumstances so require take or cause to be taken any steps he may consider proper for the temporary disposal of the vehicle."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "breath",
+            "patterns" : [
+                "breath test",
+                "breath analyser",
+                "breath analyser test"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : A police officer in uniform or an officer of the Motor Vehicles Department, as may be authorised in this behalf by that Department, may require any person driving or attempting to drive a motor vehicle in a public place to provide one or more specimens of breath for breath test there or nearby, if such police officer or officer has any reasonable cause to suspect him of having committed an offence under section 185\n\n If a motor vehicle is involved in an accident in a public place and a police officer in uniform has any reasonable cause to suspect that the person who was driving the motor vehicle at the time of the accident, had alcohol in his blood or that he was driving under the influence of a drug referred to in section 185 he may require the person so driving the motor vehicle, to provide a specimen of his breath for a breath test."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "information",
+            "patterns" : [
+                "give information",
+                "demand information",
+                "exchange info"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : The owner of a motor vehicle, the driver or conductor of which is accused of any offence under this Act shall, on the demand of any police officer authorised in this behalf by the State Government, give all information regarding the name and address of, and the licence held by, the driver or conductor which is in his possession or could by reasonable diligence be ascertained by him."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "detain",
+            "patterns" : [
+                "detain vehicle",
+                "detain motor vehicle", 
+                "detain motor vehicle without registration or insurance"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Any police officer or other person authorised in this behalf by the State Government may, if he has reason to believe that a motor vehicle has been or is being used in contravention of the provisions of section 3 or section 4 or section 39 or without the permit required by sub-section of section 66 or in contravention of any condition of such permit relating to the route on which or the area in which or the purpose for which the vehicle may be used, seize and detain the vehicle, in the prescribed manner and for this purpose take or cause to be taken any steps he may consider proper for the temporary safe custody of the vehicle"
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "restrict",
+            "patterns" : [
+                "restrict use of vehicles",
+                "motor vehicle restriction" 
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : —The State Government or any authority authorised in this behalf by the State Government, if satisfied that it is necessary in the interest of public safety or convenience, or because of the nature of any road or bridge, may by notification in the Official Gazette, prohibit or restrict, subject to such exceptions and conditions as may be specified in notification, the driving of motor vehicles or of any specified class or description of motor vehicles or the use of trailers either generally in a specified area or on a specified road and when any such prohibition or restriction is imposed, shall cause appropriate traffic signs to be placed or erected under section 116 at suitable places.\n Provided that where any prohibition or restriction under this section is to remain in force for not more than one month, notification thereof in the Official Gazette shall not be necessary, but such local publicity as the circumstances may permit, shall be given of such prohibition or restriction."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "headgear",
+            "patterns" : [
+                "wearing helmet",
+                "wearing headgear",
+                "riding with helmet", 
+                "without helmet",
+                "sikh", 
+                "turban"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Every person driving or riding (otherwise than in a side car, on a motor cycle of any class or description) shall, while in a public place, wear 2 [protective headgear conforming to the standards of Bureau of Indian Standards]\nProvided that the provisions of this section shall not apply to a person who is a Sikh, if he is, while driving or riding on the motor cycle, in a public place, wearing a turban\n\n Protective headgear means a helmet which by virtue of it's shape, material and construction, could reasonably be expected to afford to the person driving or riding on a motor cycle a degree of protection from injury in the event of an accident."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "juvenile",
+            "patterns" : [
+                "minor driver", 
+                "illegal driving", 
+                "accident involving a juvenile"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Where an offence under this Act has been committed by a juvenile, the guardian of such juvenile or the owner of the motor vehicle shall be deemed to be guilty of the contravention and shall be liable to be proceeded against and punished.\n\nthe Court shall presume that the use of the motor vehicle by the juvenile was with the consent of the guardian of such juvenile or the owner of the motor vehicle, as the case may be.\n\nWhere an offence has been committed by a juvenile, such juvenile shall not be eligible to be granted a driving licence or a learner's licence until such juvenile has attained the age of twenty-five years."
+            ],
+            "context" : [
+                ""
+            ]
+        }
+    ]
+}
